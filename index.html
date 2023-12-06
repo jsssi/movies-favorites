@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/app.css">
+  <script src="js/main.js" type="module" defer></script>
+  <title>MoviesFavorites</title>
+</head>
+
+<body>
+  <div id="app">
+    <header>
+      <h1>MoviesFavorites</h1>
+      <div class="input">
+        <input type="text" placeholder="Nome do filme">
+        <button>&#128269;</button>
+      </div>
+    </header>
+    <table>
+      <thead>
+        <tr>
+          <th>Movie</th>
+          <th>Diretor</th>
+          <th>Imob</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="movie">
+          <td class="movie-name">
+            <img src="image/61Fo3CitEGL._AC_UF1000,1000_QL80_.jpg" alt="capa">
+            <div class="text">
+              <span>nome filme</span>
+              <button>Info</button>
+            </div>
+          </td>
+          <td class="diretor">
+            <h1>Diretor</h1>
+          </td>
+          <td class="imob">9.9</td>
+          <td>x</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div id="app2">
+    <div class="modal-movies">
+      <h1 id="seach">Resultado de busca de </h1>
+      <div class="cards">
+        <div class="card">
+          <img src="image/61Fo3CitEGL._AC_UF1000,1000_QL80_.jpg" alt="">
+          <div class="movie-info">
+            <h2>nome</h2>
+            <button id="button-movie">Adicionar</button>
+          </div>
+          <div class="card">
+            <img src="image/61Fo3CitEGL._AC_UF1000,1000_QL80_.jpg" alt="">
+            <div class="movie-info">
+              <h2>nome</h2>
+              <button id="button-movie">Adicionar</button>
+            </div>
+            <div class="card">
+              <img src="image/61Fo3CitEGL._AC_UF1000,1000_QL80_.jpg" alt="">
+              <div class="movie-info">
+                <h2>nome</h2>
+                <button id="button-movie">Adicionar</button>
+              </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
